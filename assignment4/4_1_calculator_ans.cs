@@ -49,9 +49,23 @@ namespace calculator
     // Calculator class to perform operations
     public class Calculator
     {
-        // ---------- TODO ----------
-        
-        // --------------------
+        public calculate(double n1, string op, double n2){
+
+            if (op=="+"){
+                return n1+n2
+            }
+            else if (op=="-"){
+                return n1-n2
+            }
+            else if (op=="*"){
+                return n1 * n2
+            }
+            else if (op=="/"){
+                return n1/n2
+            }
+            else return 0
+
+        }
     }
 }
 
